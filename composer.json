@@ -1,15 +1,13 @@
 {
-    "name": "erusev/parsedown",
+    "name": "Condenast-Spain/parsedown",
     "description": "Parser for Markdown.",
     "keywords": ["markdown", "parser"],
-    "homepage": "http://parsedown.org",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Emanuil Rusev",
-            "email": "hello@erusev.com",
-            "homepage": "http://erusev.com"
+            "name": "CondeNast Spain",
+            "homepage": "http://www.cnworld.es/"
         }
     ],
     "require": {
