@@ -1,16 +1,13 @@
-> I also make [Caret](https://caret.io?ref=parsedown) - a Markdown editor for Mac and PC.
-
 ## Parsedown
 
-[![Build Status](https://img.shields.io/travis/erusev/parsedown/master.svg?style=flat-square)](https://travis-ci.org/erusev/parsedown)
-<!--[![Total Downloads](http://img.shields.io/packagist/dt/erusev/parsedown.svg?style=flat-square)](https://packagist.org/packages/erusev/parsedown)-->
+[![Build Status](https://img.shields.io/travis/condenast-spain/parsedown/master.svg?style=flat-square)](https://travis-ci.org/condenast-spain/parsedown)
+<!--[![Total Downloads](http://img.shields.io/packagist/dt/condenast-spain/parsedown.svg?style=flat-square)](https://packagist.org/packages/condenast-spain/parsedown)-->
 
 Better Markdown Parser in PHP
 
 [Demo](http://parsedown.org/demo) |
 [Benchmarks](http://parsedown.org/speed) |
 [Tests](http://parsedown.org/tests/) |
-[Documentation](https://github.com/erusev/parsedown/wiki/)
 
 ### Features
 
@@ -20,20 +17,20 @@ Better Markdown Parser in PHP
 * Extensible
 * [GitHub flavored](https://help.github.com/articles/github-flavored-markdown)
 * Tested in 5.3 to 7.2 and in HHVM
-* [Markdown Extra extension](https://github.com/erusev/parsedown-extra)
+* [Markdown Extra extension](https://github.com/condenast-spain/parsedown-extra)
 
 ### Installation
 #### Composer
 Install the [composer package] by running the following command:
 
-    composer require erusev/parsedown
+    composer require condenast-spain/parsedown
 
 #### Manual
 1. Download the "Source code" from the [latest release]
 2. Include `Parsedown.php`
 
-[composer package]: https://packagist.org/packages/erusev/parsedown "The Parsedown package on packagist.org"
-[latest release]: https://github.com/erusev/parsedown/releases/latest "The latest release of Parsedown"
+[composer package]: https://packagist.org/packages/condenast-spain/parsedown "The Parsedown package on packagist.org"
+[latest release]: https://github.com/condenast-spain/parsedown/releases/latest "The latest release of Parsedown"
 
 ### Example
 
@@ -44,8 +41,6 @@ echo $Parsedown->text('Hello _Parsedown_!'); # prints: <p>Hello <em>Parsedown</e
 // you can also parse inline markdown only
 echo $Parsedown->line('Hello _Parsedown_!'); # prints: Hello <em>Parsedown</em>!
 ```
-
-More examples in [the wiki](https://github.com/erusev/parsedown/wiki/) and in [this video tutorial](http://youtu.be/wYZBY8DEikI).
 
 ### Security
 
@@ -90,8 +85,4 @@ It passes most of the CommonMark tests. Most of the tests that don't pass deal w
 
 **Who uses it?**
 
-[Laravel Framework](https://laravel.com/), [Bolt CMS](http://bolt.cm/), [Grav CMS](http://getgrav.org/), [Herbie CMS](http://www.getherbie.org/), [Kirby CMS](http://getkirby.com/), [October CMS](http://octobercms.com/), [Pico CMS](http://picocms.org), [Statamic CMS](http://www.statamic.com/), [phpDocumentor](http://www.phpdoc.org/), [RaspberryPi.org](http://www.raspberrypi.org/), [Symfony demo](https://github.com/symfony/symfony-demo) and [more](https://packagist.org/packages/erusev/parsedown/dependents).
-
-**How can I help?**
-
-Use it, star it, share it and if you feel generous, [donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=528P3NZQMP8N2).
+[Laravel Framework](https://laravel.com/), [Bolt CMS](http://bolt.cm/), [Grav CMS](http://getgrav.org/), [Herbie CMS](http://www.getherbie.org/), [Kirby CMS](http://getkirby.com/), [October CMS](http://octobercms.com/), [Pico CMS](http://picocms.org), [Statamic CMS](http://www.statamic.com/), [phpDocumentor](http://www.phpdoc.org/), [RaspberryPi.org](http://www.raspberrypi.org/), [Symfony demo](https://github.com/symfony/symfony-demo) and more.
