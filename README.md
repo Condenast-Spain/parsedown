@@ -1,7 +1,7 @@
 ## Parsedown
 
-[![Build Status](https://img.shields.io/travis/condenast-spain/parsedown/master.svg?style=flat-square)](https://travis-ci.org/condenast-spain/parsedown)
-<!--[![Total Downloads](http://img.shields.io/packagist/dt/condenast-spain/parsedown.svg?style=flat-square)](https://packagist.org/packages/condenast-spain/parsedown)-->
+<!--[![Build Status](https://img.shields.io/travis/condenast-spain/parsedown/master.svg?style=flat-square)](https://travis-ci.org/condenast-spain/parsedown)
+[![Total Downloads](http://img.shields.io/packagist/dt/condenast-spain/parsedown.svg?style=flat-square)](https://packagist.org/packages/condenast-spain/parsedown)-->
 
 Better Markdown Parser in PHP
 
