@@ -1,5 +1,5 @@
 {
-    "name": "Condenast-Spain/parsedown",
+    "name": "condenast-spain/parsedown",
     "description": "Parser for Markdown.",
     "keywords": ["markdown", "parser"],
     "type": "library",
