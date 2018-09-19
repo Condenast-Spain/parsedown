@@ -14,7 +14,7 @@ class Parsedown
 {
     # ~
 
-    const version = '1.7.2';
+    const version = '1.7.3';
 
     # ~
 
@@ -1190,6 +1190,7 @@ class Parsedown
                 'name' => $emphasis,
                 'handler' => 'line',
                 'text' => $matches[1],
+                'attributes' => array(),
             ),
         );
     }
@@ -1283,7 +1284,7 @@ class Parsedown
         }
         else
         {
-	        // [Text]
+            // [Text]
             if (preg_match('/^\s*\[(.*?)\]/', $remainder, $matches))
             {
                 $definition = strlen($matches[1]) ? $matches[1] : $Element['text'];
@@ -1381,6 +1382,7 @@ class Parsedown
                     'name' => 'del',
                     'text' => $matches[1],
                     'handler' => 'line',
+                    'attributes' => array(),
                 ),
             );
         }
@@ -1401,10 +1403,10 @@ class Parsedown
                     'name' => 'span',
                     'text' => $matches[1],
                     'handler' => 'line',
-		            'attributes' => array(
-		                'href' => null,
-		                'title' => null,
-		            ),
+                    'attributes' => array(
+                        'href' => null,
+                        'title' => null,
+                    ),
                 ),
             );
         }
@@ -1670,7 +1672,7 @@ class Parsedown
     # Read-Only
 
     protected $specialCharacters = array(
-        '\\', '`', '*', '_', '{', '}', '[', ']', '(', ')', '>', '#', '+', '-', '.', '!', '|', '%'
+        '\\', '`', '*', '_', '{', '}', '[', ']', '(', ')', '>', '#', '+', '-', '.', '!', '|', '%', ':'
     );
 
     protected $StrongRegex = array(
